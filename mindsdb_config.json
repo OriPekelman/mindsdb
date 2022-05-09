@@ -1,0 +1,20 @@
+{
+    "api": {
+        "http": {
+            "host": "127.0.0.1",
+            "port": "8888"
+        }
+    },
+    "integrations": {
+        "default_mariadb": {
+            "host": "database.internal",
+            "password": "",
+            "port": 3306,
+            "publish": true,
+            "type": "mariadb",
+            "user": "user",
+            "database":"main"
+        }
+    },
+    "storage_dir": "/app/storage"
+}
